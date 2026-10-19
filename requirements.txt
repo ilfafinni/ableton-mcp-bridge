@@ -1,0 +1,13 @@
+# Bridge MCP (opencode <-> Ableton)
+python-osc
+
+# Servidor de audio: voz -> texto (Whisper) y melodía -> MIDI
+faster-whisper
+av
+
+# Transcripción melodía -> MIDI (recomendado; si falla la instalación,
+# el servidor cae automáticamente a librosa)
+basic-pitch
+
+# Fallback de transcripción a MIDI
+librosa

@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.log
+.venv/
+venv/
+
+# Estado local de ejecución
+bridge_token
+*.token
+.env
+.env.*
+!.env.example
+bridge/session_state.json
+__pycache__/
+
+# Salidas de análisis
+*.wav
+*.mid
+stems/
